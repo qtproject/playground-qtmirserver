@@ -17,7 +17,7 @@
 #include "sessionlistener.h"
 #include "surfaceobserver.h"
 #include "logging.h"
-#include "tracepoints.h" // generated from tracepoints.tp
+#include "maybe_tracepoints.h"
 
 #include <mir/scene/surface.h>
 

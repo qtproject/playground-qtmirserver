@@ -24,7 +24,7 @@
 #include "proc_info.h"
 #include "taskcontroller.h"
 #include "upstart/applicationcontroller.h"
-#include "tracepoints.h" // generated from tracepoints.tp
+#include "maybe_tracepoints.h"
 #include "settings.h"
 
 // mirserver

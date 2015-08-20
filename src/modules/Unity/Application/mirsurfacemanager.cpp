@@ -22,7 +22,7 @@
 #include "mirsurfacemanager.h"
 #include "sessionmanager.h"
 #include "application_manager.h"
-#include "tracepoints.h" // generated from tracepoints.tp
+#include "maybe_tracepoints.h"
 
 // common
 #include <debughelpers.h>

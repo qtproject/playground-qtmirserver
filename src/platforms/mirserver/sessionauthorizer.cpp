@@ -16,7 +16,7 @@
 
 #include "sessionauthorizer.h"
 #include "logging.h"
-#include "tracepoints.h" // generated from tracepoints.tp
+#include "maybe_tracepoints.h"
 
 #include <QMetaMethod>
 #include <QThread>

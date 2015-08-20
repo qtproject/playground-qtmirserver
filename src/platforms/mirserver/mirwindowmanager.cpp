@@ -16,7 +16,7 @@
 
 #include "mirwindowmanager.h"
 #include "logging.h"
-#include "tracepoints.h" // generated from tracepoints.tp
+#include "maybe_tracepoints.h"
 
 #include <mir/geometry/rectangle.h>
 #include <mir/scene/session.h>
