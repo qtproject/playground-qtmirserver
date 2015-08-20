@@ -1,4 +1,4 @@
-TARGET = clipboard_test
+TESTNAME = clipboard
 
 include (../../testcommon.pri)
 

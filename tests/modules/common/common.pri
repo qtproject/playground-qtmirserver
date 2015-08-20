@@ -6,4 +6,4 @@ HEADERS += \
 
 INCLUDEPATH += $$PWD
 
-QT += quick dbus testlib
+QT += quick dbus

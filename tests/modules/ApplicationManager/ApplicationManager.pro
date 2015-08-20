@@ -1,4 +1,4 @@
-TARGET = application_manager_test
+TESTNAME = application_manager
 
 include (../../testcommon.pri)
 

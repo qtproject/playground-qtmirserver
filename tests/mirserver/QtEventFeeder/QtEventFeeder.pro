@@ -1,4 +1,4 @@
-TARGET = qteventfeeder_test
+TESTNAME = qteventfeeder
 
 include (../../testcommon.pri)
 

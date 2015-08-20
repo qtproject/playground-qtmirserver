@@ -1,4 +1,4 @@
-TARGET = taskcontroller_test
+TESTNAME = taskcontroller
 
 include (../../testcommon.pri)
 

@@ -1,4 +1,4 @@
-TARGET = desktopfilereader_test
+TESTNAME = desktopfilereader
 
 include (../../testcommon.pri)
 

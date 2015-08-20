@@ -1,4 +1,4 @@
-TARGET = screen_test
+TESTNAME = screen
 
 include (../../testcommon.pri)
 

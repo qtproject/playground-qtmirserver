@@ -1,4 +1,4 @@
-TARGET = mirsurfaceitem_test
+TESTNAME = mirsurfaceitem
 
 include (../../testcommon.pri)
 

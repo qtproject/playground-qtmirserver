@@ -1,4 +1,4 @@
-TARGET = sharedwakelock_test
+TESTNAME = sharedwakelock
 
 CONFIG += gtest_own_main
 
@@ -14,5 +14,9 @@ QT += testlib dbus
 
 PKGCONFIG += libqtdbusmock-1 libqtdbustest-1
 
+# It is also possible to use hardcoded paths for testing:
+# LIBS += -lqtdbustest -lqtdbusmock
+# INCLUDEPATH += /usr/include/libqtdbustest-1
+# INCLUDEPATH += /usr/include/libqtdbusmock-1
 
 SOURCES += sharedwakelock_test.cpp

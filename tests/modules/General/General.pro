@@ -1,4 +1,4 @@
-TARGET = objectlistmodel_test
+TESTNAME = objectlistmodel
 
 include (../../testcommon.pri)
 

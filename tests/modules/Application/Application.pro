@@ -1,4 +1,4 @@
-TARGET = application_test
+TESTNAME = application
 
 include (../../testcommon.pri)
 

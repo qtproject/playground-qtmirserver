@@ -1,4 +1,4 @@
-TARGET = session_manager_test
+TESTNAME = session_manager
 
 include (../../testcommon.pri)
 

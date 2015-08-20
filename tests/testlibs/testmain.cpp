@@ -15,8 +15,32 @@
  */
 
 #include <gtest/gtest.h>
+#include <QtTest/QtTest>
+
+class TEST_NAME : public QObject
+{
+    Q_OBJECT
+
+public:
+    TEST_NAME();
+private slots:
+    void runAllTests();
+};
+
+TEST_NAME::TEST_NAME()
+{
+}
+
+void TEST_NAME::runAllTests()
+{
+    int retVal = RUN_ALL_TESTS();
+    QCOMPARE(retVal, 0);
+}
 
 int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
+    TEST_NAME gTest;
+    return QTest::qExec(&gTest, argc, argv);
 }
+
+#include "testmain.moc"
